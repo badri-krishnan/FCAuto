@@ -4,7 +4,7 @@ import wave
 import numpy as np
 import scipy.io.wavfile as wav
 import matplotlib.pyplot as plt
-
+#Function to save matplot in a more universal fashion
 def save(path, ext='png', close=True, verbose=False):
     verbose = False
     """Save a figure from pyplot.
